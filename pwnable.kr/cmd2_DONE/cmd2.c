@@ -21,7 +21,9 @@ void delete_env(){
 int main(int argc, char* argv[], char** envp){
 	delete_env();
 	putenv("PATH=/no_command_execution_until_you_become_a_hacker");
+	printf("before: %s\n", argv[1]);
 	if(filter(argv[1])) return 0;
+	printf("pass filter\n");
 	printf("%s\n", argv[1]);
 	system( argv[1] );
 	return 0;

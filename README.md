@@ -33,3 +33,4 @@ Một số kiến thức học được
 - [x] [blackjack](pwnable.kr/blackjack_DONE)  
 - [x] [lotto](pwnable.kr/lotto_DONE)  
 - [x] [cmd1](pwnable.kr/cmd1_DONE)  
+- [x] [cmd2](pwnable.kr/cmd2_DONE)
