@@ -130,3 +130,6 @@ Gadgets information
 0x08049015 : test eax, eax ; je 0x804901b ; call eax
 
 Unique gadgets found: 128
+
+
+khúc thử email?
