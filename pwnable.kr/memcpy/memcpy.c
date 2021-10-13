@@ -8,7 +8,7 @@
 #include <math.h>
 
 unsigned long long rdtsc(){
-        asm("rdtsc");
+        asm("rdtsc"); // read time stamp counter
 }
 
 char* slow_memcpy(char* dest, const char* src, size_t len){
