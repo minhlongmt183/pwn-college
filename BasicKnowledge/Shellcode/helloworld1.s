@@ -1,0 +1,1 @@
+BITS 32			; Tell nasm this is 32-bit code.
